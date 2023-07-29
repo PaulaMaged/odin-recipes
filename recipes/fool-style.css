@@ -1,0 +1,22 @@
+.center-text {
+    border: 1px solid brown;
+    background-color: rgb(201, 67, 67);
+    color: gold;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ffa07a;
+    color: rgb(163, 13, 13);
+}
+
+ul, ol {
+    list-style: square;
+    color: #FFE37A;
+}
