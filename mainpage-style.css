@@ -1,6 +1,7 @@
 body {
     background-color: pink;
     font-size: 24px;
+    margin: 0px;
 }
 a {
     text-decoration: none;
@@ -14,17 +15,22 @@ h1 {
     color: rgb(78, 14, 97);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    padding: 20px;
+    margin: 40px 15px;
+    background-color: lightblue;
 }
-
 ul {
-    list-style: none;
-    text-align: center;
+    list-style-position: inside;
+    list-style-type:georgian;
+    padding: 0px;
+    margin: auto;
+    width:max-content;
 }
-
 li {
     border: 1px solid rgba(255, 255, 255, 0.377);
-    margin: auto;
-    margin-top: 10px;
+    margin: 20px;
+    padding: 10px;
     width: 120px;
     background-color: rgb(250, 214, 7);
+    display: inline;
 }
